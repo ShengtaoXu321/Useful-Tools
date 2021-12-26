@@ -46,6 +46,7 @@ def getIp_Request():
             print(f'当前时间为：{locatime}-----您所查询的ip是：{ip}-----------地点是：{location}-----------该ISP：{isp}--------该ASN：{asn}', file=f1)
     else:
         print("获取本地ip信息失败！")
+    f1.close()
 
 if __name__ == '__main__':
     # 异常处理
